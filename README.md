@@ -1,55 +1,70 @@
-# Headline Analyzer Program
+# 📰 Headline Analyzer Project
 
-## Overview
-The Headline Analyzer Program is a Python tool designed to analyze text data, specifically headlines. It provides various functionalities such as counting specific words, calculating average headline length, finding the longest and shortest headlines, analyzing word frequency, filtering headlines by length, and exporting results. This program is ideal for journalists, data analysts, or anyone working with headline datasets.
+Analyze real-world news headlines using Python — from a command-line tool to a full-featured interactive Streamlit dashboard.
 
-## Key Skills Demonstrated
-1. File Handling:
-- Read and write files.
-- Handle file not found and empty file errors gracefully.
+---
 
-2. Python Data Structures:
-- Work with lists, strings, and dictionaries.
-- Use list comprehensions for filtering and processing text.
+## 🔍 Overview
 
-3. Text Processing:
-- Case-insensitive word matching.
-- Tokenization and word frequency analysis using collections.Counter.
+This project explores and visualizes headline data through two powerful versions:
 
-4. Mathematical Computations:
-- Calculate averages (e.g., average headline length).
-- Find maximum and minimum values (e.g., longest and shortest headlines).
+### 🧑🏽‍💻 CLI Version (Terminal-Based)
+A Python-based command-line tool that lets users load `.txt` files and perform interactive analysis via a menu interface. Ideal for learning core Python skills, file handling, and user interaction.
 
-5. Data Visualization:
-- Create bar charts to visualize word frequency using matplotlib.
+### 📊 Streamlit App (Web Dashboard)
+A dynamic, web-based dashboard that allows users to upload structured JSON datasets, perform real-time sentiment and word analysis, and view visual insights. Perfect for showcasing data storytelling and NLP capabilities.
 
-6. User Interaction:
-- Implement a menu-driven interface for user input and program flow control.
-- Validate user input for robust error handling.
+---
 
-7. Modular Design:
-- Write reusable, single-purpose functions for tasks (e.g., filtering, searching, and saving data).
+## 🛠️ Features
 
-## Features
-* Count Headlines Containing a Word: Count how many headlines contain a specific word.
-* Write Matching Headlines to File: Save headlines containing a specific word to a new file.
-* Calculate Average Headline Length: Get the average number of characters in the headlines.
-* Find Longest and Shortest Headlines: Identify the longest and shortest headlines in the dataset.
-* Word Frequency Analysis: Analyze and display the most common words and their frequencies.
-* Filter Headlines by Length: Filter headlines based on a specified minimum and maximum length.
-* Search for Multiple Words: Search for headlines containing multiple words, using "AND" or "OR" logic.
-* Save Analysis Report: Save the analysis results (e.g., word frequency, average length) to a file.
-* Plot Word Frequency: Visualize the top 10 most common words in the dataset as a bar chart.
-* Load a New File: Switch to analyzing a different dataset without restarting the program.
+### ✅ Shared Capabilities (Both Versions)
+- Count how many headlines contain a specific word
+- Analyze word frequency (top 10 most used)
+- Filter headlines by length
+- View longest/shortest headlines
+- Search headlines using AND/OR logic
+- Visualize word frequency with bar charts
 
+### 🧑🏽‍💻 CLI-Only Features
+- Fully menu-driven program with terminal prompts
+- Saves analysis to report file
+- Simple input/output for `.txt` headline files
 
-## Technologies Used
-* Python: Core programming language.
-* Matplotlib: For data visualization.
-* Collections.Counter: For efficient word frequency analysis.
+### 📊 Streamlit-Only Features
+- Upload `.json` datasets (default: Huffington Post dataset)
+- Sentiment analysis using TextBlob (positive, negative, neutral)
+- Average sentiment scores per news category
+- Interactive charts and filtered word breakdowns
+- Word clouds (coming soon!)
 
-## What This Program Demonstrates
-* Proficiency in Python for text processing and analysis.
-* Ability to create user-friendly tools with robust error handling.
-* Basic data visualization skills.
-* Modular, maintainable code design.
+---
+
+## 🧠 Skills Demonstrated
+
+### 🐍 Core Python
+- File I/O and error handling
+- Custom functions and modular design
+- Working with lists, strings, dictionaries, and `collections.Counter`
+
+### 🧪 Data Science & NLP
+- Data cleaning and tokenization
+- Sentiment analysis with TextBlob
+- Word frequency and category comparisons
+- Exploratory Data Analysis (EDA) with Pandas and Seaborn
+
+### 📊 Visualization
+- Bar charts for sentiment and frequency
+- Histogram distributions
+- Interactive filtering with Streamlit UI components
+
+## 🧪 Technologies Used
+
+- Python 3.9+
+- Streamlit
+- TextBlob
+- NLTK
+- Pandas
+- Seaborn & Matplotlib
+- `collections.Counter`
+
