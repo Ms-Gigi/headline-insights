@@ -43,7 +43,7 @@ if uploaded_file is not None:
     df = pd.read_json(uploaded_file, lines=True)
     st.success("✅ File uploaded and loaded!")
 else:
-    df = pd.read_json("data/News_Category_Dataset_v2.json", lines=True)
+    df = pd.read_json("data/News_Category_Dataset_v3.json", lines=True)
     st.info("Using default Huffington Post dataset.")
 
 # --- Preprocessing ---
