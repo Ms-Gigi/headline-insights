@@ -9,10 +9,10 @@ Analyze real-world news headlines using Python — from a command-line tool to a
 This project explores and visualizes headline data through two powerful versions:
 
 ### 🧑🏽‍💻 CLI Version (Terminal-Based)
-A Python-based command-line tool that lets users load `.txt` files and perform interactive analysis via a menu interface. Ideal for learning core Python skills, file handling, and user interaction.
+A Python-based command-line tool that lets users load `.txt` files and perform interactive analysis via a menu interface. 
 
 ### 📊 Streamlit App (Web Dashboard)
-A dynamic, web-based dashboard that allows users to upload structured JSON datasets, perform real-time sentiment and word analysis, and view visual insights. Perfect for showcasing data storytelling and NLP capabilities.
+A dynamic, web-based dashboard that allows users to upload structured JSON datasets, perform real-time sentiment and word analysis, and view visual insights. 
 
 ---
 
